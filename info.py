@@ -3,7 +3,7 @@ from discord import Member
 from discord.ext import commands
 from pymongo import MongoClient
 import pymongo
-cluster = MongoClient("mongodb+srv://tarkvarabot:tarkvarabot21@cluster0.2pybb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+cluster = MongoClient("CENSORED")
 
 levelling = cluster["discord"]["levelling"]
 
